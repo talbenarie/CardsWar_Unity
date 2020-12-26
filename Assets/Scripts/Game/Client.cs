@@ -1,18 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Game.Controller;
 using UnityEngine;
 
-public class Client : MonoBehaviour
+namespace Game
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Client
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private GameController _game;
+        public Client()
+        {
+            _game = new GameController();
+        }
     }
 }
