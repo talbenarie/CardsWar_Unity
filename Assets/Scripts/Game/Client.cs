@@ -7,10 +7,11 @@ namespace Game
 {
     public class Client
     {
-        private GameController _game;
+        public GameController Game { get; private set; }
+        
         public Client()
         {
-            _game = new GameController();
+            Game = new GameController();
         }
     }
 }

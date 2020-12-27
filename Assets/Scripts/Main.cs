@@ -12,7 +12,7 @@ public class Main : MonoBehaviour
     public CardType[] CardTypes;
     public static Main Instance { get; private set; }
     
-    private Client _client;
+    public Client Client { get; private set; }
     
     private void Awake()
     {
@@ -30,6 +30,6 @@ public class Main : MonoBehaviour
     private void Initialize()
     {
         CardTypes = Resources.LoadAll<CardType>("CardTypes");
-        _client = new Client();
+        Client = new Client();
     }
 }

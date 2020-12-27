@@ -6,6 +6,7 @@
     <e p="D:\Projects\Unity\CardsWar_Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CardCounterView.cs" t="Include" />
         <e p="Scriptable Objects" t="Include">
           <e p="CardType.cs" t="Include" />
         </e>
@@ -15,13 +16,18 @@
             <e p="Controller" t="Include">
               <e p="CardsController.cs" t="Include" />
               <e p="GameController.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
             </e>
             <e p="Model" t="Include">
               <e p="CardModel.cs" t="Include" />
             </e>
             <e p="View" t="Include">
+              <e p="Addons" t="Include">
+                <e p="TimerTextFieldView.cs" t="Include" />
+              </e>
               <e p="CardView.cs" t="Include" />
               <e p="MenuView.cs" t="Include" />
+              <e p="PlayView.cs" t="Include" />
             </e>
           </e>
           <e p="Main.cs" t="Include" />
