@@ -20,24 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98074cf-4094-4fe1-b6f1-6bbe9dd037c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CardCounterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardCounterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Diamond.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Diamond.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Heart.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Heart.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Spade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Spade.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Trebol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Trebol.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Play.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Play.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +48,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PausePopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +101,7 @@
       <workItem from="1609017713919" duration="1381000" />
       <workItem from="1609047604230" duration="10630000" />
       <workItem from="1609089032644" duration="3408000" />
-      <workItem from="1609145926467" duration="11049000" />
+      <workItem from="1609145926467" duration="11943000" />
     </task>
     <servers />
   </component>
