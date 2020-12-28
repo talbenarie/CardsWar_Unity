@@ -16,6 +16,7 @@ namespace Game.View.Addons
         private DateTime _currentTime;
         private DateTime _targetTime;
         private bool _active;
+        private bool _initialized;
 
         public OnTimerFinishedEvent OnTimerFinished = new OnTimerFinishedEvent();
 
@@ -23,8 +24,29 @@ namespace Game.View.Addons
         {
             _targetTime = target;
             _active = true;
+            _initialized = true;
         }
 
+        public void Pause()
+        {
+            if (!_initialized)
+            {
+                return;
+            }
+            
+            _active = false;
+        }
+
+        public void Resume()
+        {
+            if (!_initialized)
+            {
+                return;
+            }
+            
+            _active = true;
+        }
+        
         private void OnTimerTick()
         {
             if (!_active) return;
@@ -34,6 +56,7 @@ namespace Game.View.Addons
             if (_currentTime > _targetTime)
             {
                 _active = false;
+                _initialized = false;
                 OnTimerFinished.Invoke();
             }
 
@@ -53,21 +76,39 @@ namespace Game.View.Addons
 
         private static string FormatTime(TimeSpan ts)
         {
+            String hours, minutes, seconds;
+
+            hours = FormatToZeroBase(ts.Hours);
+            minutes = FormatToZeroBase(ts.Minutes);
+            seconds = FormatToZeroBase(ts.Seconds);
+            
             if (ts.TotalDays >= 3)
             {
                 return ts.TotalDays + " Days";
             }
             else if (ts.TotalDays >= 1)
             {
-                return ts.TotalDays + " D " + ts.Hours + " H";
+                return ts.TotalDays + " D " + hours + " H";
             }
             else if (ts.TotalHours >= 1)
             {
-                return ts.Hours + ":" + ts.Minutes + ":" + ts.Seconds;
+                return hours + ":" + minutes + ":" + seconds;
             }
             else
             {
-                return ts.Minutes + ":" + ts.Seconds;
+                return minutes + ":" + seconds;
+            }
+        }
+
+        private static string FormatToZeroBase(int num)
+        {
+            if (num < 10)
+            {
+                return "0" + num;
+            }
+            else
+            {
+                return num.ToString();
             }
         }
     }

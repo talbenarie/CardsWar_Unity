@@ -54,7 +54,7 @@ namespace Game.Controller
             {
                 cards.Push(_drawn.Pop());
 
-                if (cards.Count > numCards)
+                if (cards.Count >= numCards)
                 {
                     break;
                 }

@@ -21,6 +21,9 @@ namespace Game.View
             _symbol.sprite = cardType.Image;
             _numberTxt.text = card.Number;
             _numberBigTxt.text = card.Number;
+            _numberTxt.color = cardType.Color;
+            _numberBigTxt.color = cardType.Color;
+            _cardBack.enabled = false;
         }
 
         private CardType GetCardType(int type)

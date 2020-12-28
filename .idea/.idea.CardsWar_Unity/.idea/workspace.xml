@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d98074cf-4094-4fe1-b6f1-6bbe9dd037c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CardCounterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardCounterView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Diamond.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Diamond.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Heart.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Heart.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Spade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Spade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CardTypes/Trebol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CardTypes/Trebol.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Play.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Play.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/MenuView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/MenuView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,35 +48,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/MenuView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/cd/d11f8677/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Model/CardModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CardCounterView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E93AB2F8-5FF8-4881-B6AB-5BA98D373CFC/b7/01216ef1/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../Programs/Unity/2019.4.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PopupView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PausePopup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Model/CardModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/MenuView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Client.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Assets/CardCounterView.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/CardCounterView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PopupView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/WonPopup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PausePopup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1mC7ZLvE6kFk0pYScpURzEDz3Ve" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,21 +85,21 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20184">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20184" />
+      <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20184">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20184" />
+      <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -100,6 +117,7 @@
       <workItem from="1609017713919" duration="1381000" />
       <workItem from="1609047604230" duration="10630000" />
       <workItem from="1609089032644" duration="3408000" />
+      <workItem from="1609145926467" duration="11049000" />
     </task>
     <servers />
   </component>
@@ -122,5 +140,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog" timestamp="1609157960424">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609157960424" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1609165336621">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609165336621" />
   </component>
 </project>

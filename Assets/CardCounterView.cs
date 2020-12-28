@@ -19,12 +19,18 @@ namespace Game.View
             _card = card;
             _player = player;
             _player.OnCardDraw.AddListener(OnCardDrawn);
+            _player.OnCardsUpdated.AddListener(OnCardsUpdated);
         }
 
-        private void OnCardDrawn(CardModel card)
+        private void OnCardsUpdated()
         {
             _count.text = _player.GetCardsLeft().ToString();
+        }
+        
+        private void OnCardDrawn(CardModel card)
+        {
             _card.Initialize(card);
+            OnCardsUpdated();
         }
     }
 }

@@ -1,53 +1,78 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Game.Model;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Game.Controller
 {
-    public class OnCardDrawEvent : UnityEvent<CardModel> { }
-    public class OnCardsOverEvent : UnityEvent { }
+    
+    
     
     [Serializable]
     public class PlayerController
     {
         [SerializeField] private CardsController _cards;
         [SerializeField] private Stack<CardModel> _playerCards;
-        [SerializeField] private int cardsAmount = -1;
+        [SerializeField] private int _cardsAmount = -1;
 
-        public OnCardDrawEvent OnCardDraw;
-        public OnCardsOverEvent OnCardsOver;
+        public class OnCardDrawEvent : UnityEvent<CardModel> { }
+        public OnCardDrawEvent OnCardDraw = new OnCardDrawEvent();
         
+        public class OnCardsOverEvent : UnityEvent { }
+        public OnCardsOverEvent OnCardsOver = new OnCardsOverEvent();
+
+        public class OnCardsUpdatedEvent : UnityEvent { }
+        public OnCardsUpdatedEvent OnCardsUpdated = new OnCardsUpdatedEvent();
+
         public PlayerController(CardsController cards)
         {
             _cards = cards;
-            OnCardDraw = new OnCardDrawEvent();
-            OnCardsOver = new OnCardsOverEvent();
         }
 
         public void Start()
         {
-            _playerCards = _cards.GetCards(cardsAmount);
-            cardsAmount = _playerCards.Count;
+            _playerCards = _cards.GetCards(-1);
+            _cardsAmount = _playerCards.Count;
+            OnCardsUpdated.Invoke();
         }
 
-        public void Draw()
+        public CardModel Draw()
         {
             if (_playerCards.Count == 0)
             {
                 OnCardsOver.Invoke();
-                return;
+                return null;
             }
             
             CardModel card = _playerCards.Pop();
             OnCardDraw.Invoke(card);
+            return card;
         }
 
+        public void AddCard(CardModel card)
+        {
+            _playerCards.Push(card);
+            Shuffle(_playerCards);
+            OnCardsUpdated.Invoke();
+        }
+        
         public int GetCardsLeft()
         {
             return _playerCards.Count;
+        }
+
+        private static void Shuffle(Stack<CardModel> stack)
+        {
+            System.Random random = new System.Random();
+            CardModel[] values = stack.ToArray();
+            stack.Clear();
+            foreach (var value in values.OrderBy(x => random.Next()))
+            {
+                stack.Push(value);
+            }
         }
     }
 }
