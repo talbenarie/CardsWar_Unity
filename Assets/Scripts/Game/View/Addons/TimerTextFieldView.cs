@@ -7,8 +7,7 @@ using UnityEngine.Events;
 
 namespace Game.View.Addons
 {
-    public class OnTimerFinishedEvent : UnityEvent{}
-    
+
     [RequireComponent(typeof(TextMeshProUGUI))]
     public class TimerTextFieldView : MonoBehaviour
     {
@@ -17,7 +16,7 @@ namespace Game.View.Addons
         private bool _active;
         private bool _initialized;
 
-        public OnTimerFinishedEvent OnTimerFinished = new OnTimerFinishedEvent();
+        public UnityEvent OnTimerFinished = new UnityEvent();
 
         public void Initialize(TimeSpan time)
         {

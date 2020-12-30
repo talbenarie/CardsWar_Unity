@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98074cf-4094-4fe1-b6f1-6bbe9dd037c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +50,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
       </list>
     </option>
@@ -107,7 +108,7 @@
       <workItem from="1609145926467" duration="11943000" />
       <workItem from="1609310508050" duration="4422000" />
       <workItem from="1609329448451" duration="2986000" />
-      <workItem from="1609337601306" duration="376000" />
+      <workItem from="1609337601306" duration="722000" />
     </task>
     <servers />
   </component>
