@@ -28,4 +28,21 @@ public class CardType : ScriptableObject
       else if (Type == CardSymbol.Trebol) return 4;
       else return 0;
    }
+
+   public static string GetTypeName(int typeID)
+   {
+      switch (typeID)
+      {
+         case 1:
+            return "diamond";
+         case 2:
+            return "heart";
+         case 3:
+            return "spade";
+         case 4:
+            return "clover";
+         default:
+            return "none";
+      }
+   }
 }

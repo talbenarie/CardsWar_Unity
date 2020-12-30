@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98074cf-4094-4fe1-b6f1-6bbe9dd037c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Play.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Play.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PopupView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B76D74C-9007-4047-ADC3-E5DBD5D3F1DE/69/a3085dc0/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PausePopup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -42,17 +49,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CardCounterView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PopupView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/WonPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PausePopup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.026002167" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -106,7 +114,8 @@
       <workItem from="1609047604230" duration="10630000" />
       <workItem from="1609089032644" duration="3408000" />
       <workItem from="1609145926467" duration="11943000" />
-      <workItem from="1609310508050" duration="686000" />
+      <workItem from="1609310508050" duration="4422000" />
+      <workItem from="1609329448451" duration="2986000" />
     </task>
     <servers />
   </component>
@@ -135,13 +144,102 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="640" y="316" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609310522913" />
-    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog" timestamp="1609311201212">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="431" height="464" key="DebuggerActiveHint" timestamp="1609325889542">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="431" height="464" key="DebuggerActiveHint/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609325889542" />
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1609326604420">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604420" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1609326604419">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604419" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1609326604420">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604420" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1609326604420">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604420" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1609326604420">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604420" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1609326604420">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326604420" />
+    <state x="2012" y="82" width="1736" height="876" key="VCS.FileHistoryDialog" timestamp="1609326429566">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609311201212" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1609165336621">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2012" y="82" width="1736" height="876" key="VCS.FileHistoryDialog/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326429566" />
+    <state x="2543" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1609326344612">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609165336621" />
+    <state x="2543" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1160/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609326344612" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Main.cs</url>
+          <line>39</line>
+          <properties documentPath="C:\Projects\CardsWar_Unity\Assets\Scripts\Main.cs" initialLine="39">
+            <startOffsets>
+              <option value="995" />
+            </startOffsets>
+            <endOffsets>
+              <option value="996" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -40,11 +40,29 @@ namespace Game.View
             _controller.Start();
         }
 
+        [ContextMenu("SimulateVictory")]
+        public void SimulateVictory()
+        {
+            _controller.ForceVictory();
+        }
+        
+        [ContextMenu("SimulateLoss")]
+        public void SimulateLoss()
+        {
+            _controller.ForceLoss();
+        }
+        
+        [ContextMenu("SimulateTimeout")]
+        public void SimulateTimeout()
+        {
+            _controller.ForceTimeout();
+        }
+        
         private void InitializeView()
         {
             _playerCounter.Initialize(_controller.Player, _playerCard);
             _enemyCounter.Initialize(_controller.Opponent, _enemyCard);
-            _timer.Initialize(DateTime.Now + new TimeSpan(0, 1, 0));
+            _timer.Initialize(DateTime.Now + new TimeSpan(0, 5, 0));
         }
 
         private void AddEventListeners()
@@ -72,6 +90,8 @@ namespace Game.View
 
         private void OnGameFinished()
         {
+            _timer.Pause();
+            
             GameController.BattleResult result = _controller.GetBattleResult();
             switch (result)
             {

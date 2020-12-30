@@ -4,6 +4,13 @@
     <e p="C:\Projects\CardsWar_Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="20 Logos PSD" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="firasansheavy" t="Include">
+              <e p="SIL Open Font License.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="CardCounterView.cs" t="Include" />
         <e p="Scriptable Objects" t="Include">
           <e p="CardType.cs" t="Include" />

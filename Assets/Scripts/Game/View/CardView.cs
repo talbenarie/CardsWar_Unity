@@ -10,19 +10,13 @@ namespace Game.View
 {
     public class CardView : MonoBehaviour
     {
-        [SerializeField] private Image _symbol;
+        [SerializeField] private Image _background;
         [SerializeField] private Image _cardBack;
-        [SerializeField] private TextMeshProUGUI _numberTxt;
-        [SerializeField] private TextMeshProUGUI _numberBigTxt;
 
         public void Initialize(CardModel card)
         {
             CardType cardType = GetCardType(card.Type);
-            _symbol.sprite = cardType.Image;
-            _numberTxt.text = card.Number;
-            _numberBigTxt.text = card.Number;
-            _numberTxt.color = cardType.Color;
-            _numberBigTxt.color = cardType.Color;
+            _background.sprite = Main.Instance.CardAssets[card.Type - 1, card.Worth - 1];
             _cardBack.enabled = false;
         }
 

@@ -38,6 +38,21 @@ namespace Game.Controller
             Opponent.OnCardsOver.AddListener(OnCardsFinished);
         }
 
+        public void ForceVictory()
+        {
+            Finish(BattleResult.WON);
+        }
+        
+        public void ForceLoss()
+        {
+            Finish(BattleResult.LOST_CARDS);
+        }
+        
+        public void ForceTimeout()
+        {
+            Finish(BattleResult.LOST_TIME);
+        }
+
         public void Start()
         {
             Cards.Restart();
