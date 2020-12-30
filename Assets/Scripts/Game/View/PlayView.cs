@@ -62,7 +62,7 @@ namespace Game.View
         {
             _playerCounter.Initialize(_controller.Player, _playerCard);
             _enemyCounter.Initialize(_controller.Opponent, _enemyCard);
-            _timer.Initialize(DateTime.Now + new TimeSpan(0, 5, 0));
+            _timer.Initialize(new TimeSpan(0, 5, 0));
         }
 
         private void AddEventListeners()

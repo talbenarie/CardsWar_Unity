@@ -13,16 +13,15 @@ namespace Game.View.Addons
     public class TimerTextFieldView : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI _textField;
-        private DateTime _currentTime;
-        private DateTime _targetTime;
+        private float _timeLeft;
         private bool _active;
         private bool _initialized;
 
         public OnTimerFinishedEvent OnTimerFinished = new OnTimerFinishedEvent();
 
-        public void Initialize(DateTime target)
+        public void Initialize(TimeSpan time)
         {
-            _targetTime = target;
+            _timeLeft = Convert.ToSingle(time.TotalSeconds);
             _active = true;
             _initialized = true;
         }
@@ -50,18 +49,17 @@ namespace Game.View.Addons
         private void OnTimerTick()
         {
             if (!_active) return;
-            
-            _currentTime = DateTime.Now;
 
-            if (_currentTime > _targetTime)
+            _timeLeft -= Time.deltaTime;
+
+            if (_timeLeft < 0)
             {
                 _active = false;
                 _initialized = false;
                 OnTimerFinished.Invoke();
             }
 
-            TimeSpan ts = _targetTime - _currentTime;
-            _textField.text = FormatTime(ts);
+            _textField.text = FormatTime(TimeSpan.FromSeconds(_timeLeft));
         }
         
         private void Update()

@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98074cf-4094-4fe1-b6f1-6bbe9dd037c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Play.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Play.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/CardType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/CardView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CardCounterView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PopupView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/WonPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" />
@@ -61,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
       </list>
     </option>
   </component>
@@ -116,6 +107,7 @@
       <workItem from="1609145926467" duration="11943000" />
       <workItem from="1609310508050" duration="4422000" />
       <workItem from="1609329448451" duration="2986000" />
+      <workItem from="1609337601306" duration="376000" />
     </task>
     <servers />
   </component>
