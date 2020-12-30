@@ -20,29 +20,14 @@ namespace Game.Controller
         public CardsController Cards { get; private set; }
         public PlayerController Player { get; private set; }
         public PlayerController Opponent { get; private set; }
-
-        public class OnGameOverEvent : UnityEvent
-        {
-        }
-
-        public OnGameOverEvent OnGameOver = new OnGameOverEvent();
-
-        public class OnGamePauseEvent : UnityEvent
-        {
-        }
-
-        public OnGamePauseEvent OnGamePaused = new OnGamePauseEvent();
-
-        public class OnGameResumeEvent : UnityEvent
-        {
-        }
-
-        public OnGameResumeEvent OnGameResumed = new OnGameResumeEvent();
+        
+        public UnityEvent OnGameOver = new UnityEvent();
+        public UnityEvent OnGamePaused = new UnityEvent();
+        public UnityEvent OnGameResumed = new UnityEvent();
 
         private bool _active = false;
         private BattleResult _result = BattleResult.NONE;
-
-
+        
         public GameController()
         {
             Cards = new CardsController();

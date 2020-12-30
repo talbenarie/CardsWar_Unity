@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class Main : MonoBehaviour
 {
+    // the amount and types of card can be modified.
+    // By default there will be 4 card types and 13 cards total
+    // card count will be: 1-10, j, q, k
     public const int CARD_TYPES = 4;
     public const int CARD_COUNT = 13;
     

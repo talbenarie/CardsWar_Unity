@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98074cf-4094-4fe1-b6f1-6bbe9dd037c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardsWar_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +46,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Addons/TimerTextFieldView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PopupView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/WonPopup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/ResultPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/Popups/PausePopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/View/PlayView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Controller/CardsController.cs" />
       </list>
     </option>
@@ -102,6 +106,7 @@
       <workItem from="1609047604230" duration="10630000" />
       <workItem from="1609089032644" duration="3408000" />
       <workItem from="1609145926467" duration="11943000" />
+      <workItem from="1609310508050" duration="686000" />
     </task>
     <servers />
   </component>
@@ -126,10 +131,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog" timestamp="1609157960424">
+    <state x="640" y="316" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609310522913">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609157960424" />
+    <state x="640" y="316" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609310522913" />
+    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog" timestamp="1609311201212">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="976" key="VCS.FileHistoryDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1609311201212" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1609165336621">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

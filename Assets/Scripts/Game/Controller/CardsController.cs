@@ -36,9 +36,6 @@ namespace Game.Controller
             _drawn = new Stack<CardModel>(_deck);
         }
         
-        /**
-         * Returns List of cards the user owns
-         */
         public Stack<CardModel> GetCards(int numCards)
         {
             int totalCards = _deck.Count;
@@ -82,6 +79,5 @@ namespace Game.Controller
                 list[n] = value;
             }
         }
-        
     }
 }

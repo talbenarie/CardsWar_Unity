@@ -8,24 +8,16 @@ using UnityEngine.Events;
 
 namespace Game.Controller
 {
-    
-    
-    
-    [Serializable]
     public class PlayerController
     {
-        [SerializeField] private CardsController _cards;
-        [SerializeField] private Stack<CardModel> _playerCards;
-        [SerializeField] private int _cardsAmount = -1;
+        private CardsController _cards;
+        private Stack<CardModel> _playerCards;
+        private int _cardsAmount = -1;
 
         public class OnCardDrawEvent : UnityEvent<CardModel> { }
         public OnCardDrawEvent OnCardDraw = new OnCardDrawEvent();
-        
-        public class OnCardsOverEvent : UnityEvent { }
-        public OnCardsOverEvent OnCardsOver = new OnCardsOverEvent();
-
-        public class OnCardsUpdatedEvent : UnityEvent { }
-        public OnCardsUpdatedEvent OnCardsUpdated = new OnCardsUpdatedEvent();
+        public UnityEvent OnCardsOver = new UnityEvent();
+        public UnityEvent OnCardsUpdated = new UnityEvent();
 
         public PlayerController(CardsController cards)
         {
